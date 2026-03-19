@@ -1,1 +1,1 @@
-https://andrecbarbosa.github.io/Thor/
+https://andrecbarbosa.github.io/curso_ads/Thor/
