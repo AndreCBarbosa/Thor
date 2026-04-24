@@ -1,1 +1,1 @@
-https://andrecbarbosa.github.io/curso_ads/carta
+https://andrecbarbosa.github.io/curso_ads
