@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #252525;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial;
+}
+
+.shape {
+    border-radius: 20px;
+    padding: 20px;
+    background: linear-gradient(345deg, #1b1b1b 0%, #222222 100%);
+    box-shadow: -10px -10px 8px 1px rgb(82, 82, 82), 0 0 8px 12px #0f0f0f;
+}
+
+.display {
+    background: #292929;
+    color: #fff;
+    height: 100px;
+    width: 270px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.display .history {
+    width: 100%;
+    text-align: right;
+    color: #aaa;
+    font-size: 0.95rem;
+    min-height: 1.2em;
+    margin-bottom: 4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.display .value {
+    width: 100%;
+    text-align: right;
+    font-size: 2rem;
+    line-height: 1.1;
+}
+
+.board {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+.key {
+    height: 60px;
+    width: 60px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background: #333;
+    color: white;
+    transition: 0.2s;
+    box-shadow: 2px 2px 2px 2px #0f0f0f;
+}
+
+.key:hover {
+    background: #555;
+}
+
+.key:active {
+    box-shadow: none;
+}
+
+.last {
+    width: 130px;
+    background: orange;
+}
